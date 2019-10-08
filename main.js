@@ -1,1 +1,21 @@
-1
+const paragraph = document.querySelector('p');
+paragraph.style.color = 'lightblue';
+
+const heading = document.querySelector('h1');
+heading.style.fontSize = '10px';
+
+const newParagraph = document.querySelector('p');
+newParagraph.innerText = "Lorem ipsum dolor amet viral meh selfies drinking vinegar, intelligentsia poke flannel twee paleo enamel pin cray. Banjo celiac crucifix, kickstarter la croix air plant jianbing hashtag vinyl hell of man bun selvage schlitz banh mi. Tacos hella raclette quinoa blog, williamsburg adaptogen tbh. Hexagon af stumptown lumbersexual synth gentrify quinoa enamel pin celiac master cleanse. Truffaut typewriter shoreditch, semiotics iceland mixtape taxidermy umami distillery austin hashtag. Food truck synth wayfarers, street art banh mi actually authentic. Bitters tousled tattooed vegan neutra pug hell of fixie chia unicorn letterpress."
+
+const list = document.querySelector('#item-13')
+list.style.opacity = '.5';
+
+const newLine = document.querySelector('#item-3');
+newLine.innerText = "I say, Hi!"
+
+const image = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg"
+document.querySelector('img').src = image
+document.querySelector('img').style.width = '300px'
+
+
+const image2 = "https://www.motor1.com/reviews/239924/2019-chevrolet-corvette-zr1-first-drive"

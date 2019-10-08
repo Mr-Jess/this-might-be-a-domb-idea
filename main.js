@@ -13,9 +13,10 @@ list.style.opacity = '.5';
 const newLine = document.querySelector('#item-3');
 newLine.innerText = "I say, Hi!"
 
-const image = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg"
-document.querySelector('img').src = image
-document.querySelector('img').style.width = '300px'
+const image = document.querySelector('img');
+image.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
+image.style.height = '300px';
 
+const newImage = document.createElement('img');
+newImage.src = "http://www.tioxic.com/wp-content/uploads/trex_4.jpg";
 
-const image2 = "https://www.motor1.com/reviews/239924/2019-chevrolet-corvette-zr1-first-drive"
